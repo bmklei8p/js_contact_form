@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <div id="app">
+      <form id="contactForm">
+        <div>
+          <input type="text" placeholder="Name" id="senderName" required />
+        </div>
+        <div>
+          <input
+            type="text"
+            placeholder="Sender email"
+            id="senderEmail"
+            required
+          />
+        </div>
+        <div>
+          <input type="text" placeholder="Subject" id="subject" required />
+        </div>
+        <div>
+          <input type="text" placeholder="Message" id="comment" required />
+        </div>
+        <div>
+          <button type="button" id="submitButton">Send your message</button>
+        </div>
+      </form>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
